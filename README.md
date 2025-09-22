@@ -1,11 +1,11 @@
 # StickyBar (Custom Fork)
 
 **Unofficial custom fork** of HiFiKabin's StickyBar for phpBB.  
-Includes fixes/improvements for dropdowns (notifications, PM, quick links, profile) on prosilver and prosilver_fr.
+Includes fixes/improvements for dropdowns (notifications, PM, quick links, profile) on prosilver.
 
 ## Differences from original
 - Fixes for navbar sticky overlaps/positioning.
-- Better compatibility with prosilver variants (e.g., prosilver_fr).
+- Better compatibility with prosilver.
 - Version marked with `-custom` suffix to distinguish from official releases.
 
 ## Install
