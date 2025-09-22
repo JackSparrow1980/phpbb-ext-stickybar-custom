@@ -1,0 +1,7 @@
+<dl>
+	<dt><label for="stickybar">{{ lang('STICKYBAR_USER') ~ lang('COLON') }}</label></dt>
+	<dd>
+		<label for="stickybar"><input type="radio" name="stickybar" id="stickybar" value="1"{% if USER_STICKYBAR %}  checked="checked"{% endif %} /> {{ lang('YES') }}</label>
+		<label for="stickybar"><input type="radio" name="stickybar" id="stickybar" value="0"{% if not USER_STICKYBAR %} checked="checked"{% endif %} /> {{ lang('NO') }}</label>
+	</dd>
+</dl>

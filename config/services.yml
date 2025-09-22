@@ -1,0 +1,21 @@
+services:
+    hifikabin.stickybar.listener:
+        class: hifikabin\stickybar\event\listener
+        arguments:
+            - '@ext.manager'
+            - '@path_helper'
+            - '@user'
+            - '@template'
+            - '@config'
+        tags:
+            - { name: event.listener }
+
+    hifikabin.stickybar.ucp_listener:
+        class: hifikabin\stickybar\event\ucp_listener
+        arguments:
+            - '@request'
+            - '@template'
+            - '@user'
+            - '@language'
+        tags:
+            - { name: event.listener }

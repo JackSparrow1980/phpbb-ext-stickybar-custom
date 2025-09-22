@@ -1,0 +1,16 @@
+{% if S_DISPLAY_SEARCH and STICKYBAR_SEARCH and USER_STICKYBAR and not S_IN_SEARCH %}
+<li id="static-search-box" class="search-box responsive-hide" role="search">
+	<form action="{{ U_SEARCH }}" method="get" id="search">
+		<fieldset>
+			<input name="keywords" id="keywords" type="search" maxlength="128" title="{{ lang('SEARCH_KEYWORDS') }}" class="inputbox search tiny" size="20" value="{{ SEARCH_WORDS }}" placeholder="{{ lang('SEARCH_MINI') }}" />
+			<button class="button button-search" type="submit" title="{{ lang('SEARCH') }}">
+			<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">{{ lang('SEARCH') }}</span>
+			</button>
+			<a href="{{ U_SEARCH }}" class="button button-search-end" title="{{ lang('SEARCH_ADV') }}">
+			<i class="icon fa-cog fa-fw" aria-hidden="true"></i><span class="sr-only">{{ lang('SEARCH_ADV') }}</span>
+			</a>
+			{{ S_SEARCH_HIDDEN_FIELDS }}
+		</fieldset>
+	</form>
+</li>
+{% endif %}

@@ -1,0 +1,30 @@
+<!-- These cannot go into a CSS file -->
+
+{% if STICKYBAR_SELECT and USER_STICKYBAR %}
+<style type="text/css">
+
+#static-header li.breadcrumbs {
+	background-image: url("{{ BOARD_URL }}/images/{{ STICKYBAR_LOGO }}");
+	background-repeat: no-repeat;
+}
+
+#static-header li.breadcrumbs span:first-child > a {
+	width: 0px;
+	padding-left: {{ STICKYBAR_LEFT }}px;
+	padding-top: {{ STICKYBAR_TOP }}px;
+	margin-top: -20px;
+}
+
+#static-header .navbar {
+	background: {{ STICKYBAR_COLOUR }};
+}
+#static-header span, #static-header .linklist li a {
+	color: {{ STICKYBAR_TEXT_COLOUR }};
+}
+
+#static-header ul.linklist li.responsive-menu a.responsive-menu-link::before {
+	border-color: {{ STICKYBAR_TEXT_COLOUR }};
+}
+</style>
+
+{% endif %}
