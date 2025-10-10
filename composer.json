@@ -1,5 +1,5 @@
 {
-    "name": "jacksparrow1980/stickybar-custom",
+    "name": "hifikabin/stickybar",
     "type": "phpbb-extension",
     "description": "Makes the top navigation bar stick to the top of your Browsers window.",
     "homepage": "http://phpbb.hifikabin.me.uk",
@@ -23,20 +23,26 @@
             "name": "Jan Odvarko",
             "homepage": "http://odvarko.cz",
             "role": "Creator - jscolor, JavaScript Color Picker"
+        },
+        {
+            "name": "JackSparrow1980",
+            "homepage": "https://github.com/JackSparrow1980",
+            "role": "Maintainer - custom fixes"
         }
     ],
     "require": {
         "php": ">=7.1.3"
     },
     "extra": {
-        "display-name": "Sticky Bar (Custom Fork)",
+        "display-name": "Sticky Bar",
         "soft-require": {
             "phpbb/phpbb": ">=3.3.0@dev"
         },
         "version-check": {
-            "host": "versioncheck.hifikabin.me.uk",
-            "directory": "/330",
-            "filename": "/sticky__versions.json"
+            "host": "raw.githubusercontent.com",
+            "directory": "JackSparrow1980/phpbb-ext-stickybar-custom/main/versioncheck",
+            "filename": "stickybar_versions.json",
+            "ssl": true
         }
     }
 }
