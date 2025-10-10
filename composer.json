@@ -41,7 +41,8 @@
         "version-check": {
             "host": "versioncheck.hifikabin.me.uk",
             "directory": "330",
-            "filename": "sticky__versions.json"
+            "filename": "sticky__versions.json",
+            "ssl": true
         }
     }
 }
