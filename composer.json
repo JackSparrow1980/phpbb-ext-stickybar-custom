@@ -23,6 +23,11 @@
             "name": "Jan Odvarko",
             "homepage": "http://odvarko.cz",
             "role": "Creator - jscolor, JavaScript Color Picker"
+        },
+        {
+            "name": "JackSparrow1980",
+            "homepage": "https://github.com/JackSparrow1980",
+            "role": "Maintainer - custom fixes"
         }
     ],
     "require": {
