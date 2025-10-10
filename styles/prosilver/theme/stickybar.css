@@ -91,5 +91,11 @@ html {
 } 
 
 #static-header li.breadcrumbs {
-	padding-top: 3px;
-} 
+        padding-top: 3px;
+}
+
+#static-header #quick-links {
+        display: list-item !important;
+        visibility: visible;
+        opacity: 1;
+}
