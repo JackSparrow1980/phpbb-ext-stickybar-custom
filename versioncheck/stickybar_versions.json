@@ -1,7 +1,11 @@
 {
     "stable": {
-        "version": "3.2.0-RC2-custom1",
-        "download": "https://github.com/JackSparrow1980/phpbb-ext-stickybar-custom/archive/refs/heads/main.zip",
-        "announcement": "https://github.com/JackSparrow1980/phpbb-ext-stickybar-custom"
+        "3.3": {
+            "current": "3.2.0-RC2-custom1",
+            "download": "https://github.com/JackSparrow1980/phpbb-ext-stickybar-custom/archive/refs/heads/main.zip",
+            "announcement": "https://github.com/JackSparrow1980/phpbb-ext-stickybar-custom",
+            "eol": "0",
+            "security": "0"
+        }
     }
 }
