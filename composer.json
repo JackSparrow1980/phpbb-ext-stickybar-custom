@@ -39,9 +39,9 @@
             "phpbb/phpbb": ">=3.3.0@dev"
         },
         "version-check": {
-            "host": "versioncheck.hifikabin.me.uk",
-            "directory": "330",
-            "filename": "sticky__versions.json",
+            "host": "raw.githubusercontent.com",
+            "directory": "JackSparrow1980/phpbb-ext-stickybar-custom/main/versioncheck",
+            "filename": "stickybar_versions.json",
             "ssl": true
         }
     }
